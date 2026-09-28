@@ -1,0 +1,22 @@
+projection implementation in class ZBP_BS_DEMO_LISTC unique;
+strict ( 2 );
+extensible;
+use draft;
+use side effects;
+define behavior for ZBS_C_DemoListReport alias ListReport
+extensible
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Custom;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Demo List"
+  },
+  "ui5AppDetails": {
+    "appId": "bs.demo.zbsdemolist"
+  },
+  "navigation": {
+    "targetMappingId": "ZBS_DEMO_LIST_UI5R_TM",
+    "semanticObject": "ZBS_DEMO_LIST",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZBS_DEMO_LIST_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Demo List",
+        "subtitle": "ALV to List Report"
+      }
+    }
+  ]
+}

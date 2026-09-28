@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZBS_R_DemoListReport'
+@MappingRole: true
+define role ZBS_R_DemoListReport {
+  grant select on ZBS_R_DemoListReport
+  where TRUE;
+}

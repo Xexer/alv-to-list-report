@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZBS_C_DemoListReport'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZBS_C_DemoListReport'
+  }
+}
+define service ZBS_DEMO_LIST provider contracts odata_v4_ui {
+  expose ZBS_C_DEMOLISTREPORT as ListReport;
+}

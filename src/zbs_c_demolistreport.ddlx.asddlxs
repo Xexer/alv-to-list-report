@@ -1,0 +1,134 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'KeyValue'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'KeyValue'
+annotate view ZBS_C_DemoListReport with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @EndUserText.label: 'KeyValue'
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'KeyValue'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'KeyValue'
+  }, {
+    position: 5,
+    type: #FOR_ACTION,
+    dataAction: 'Custom',
+    label: 'custom'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  KeyValue;
+  
+  @EndUserText.label: 'Description'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Description'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Description'
+  } ]
+  Description;
+  
+  @EndUserText.label: 'DocType'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'DocType'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'DocType'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  DocType;
+  
+  @EndUserText.label: 'DocDescription'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'DocDescription'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'DocDescription'
+  } ]
+  DocDescription;
+  
+  @EndUserText.label: 'Amount'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Amount'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Amount'
+  } ]
+  Amount;
+  
+  @EndUserText.label: 'SellInfo'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'SellInfo'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'SellInfo'
+  } ]
+  SellInfo;
+  
+  @EndUserText.label: 'Persons'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Persons'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Persons'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Persons;
+  
+  @EndUserText.label: 'Validated'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Validated'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Validated'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]  
+  ValidatedEntry;
+  
+  @UI.hidden: true
+  LocalCreatedBy;
+  
+  @UI.hidden: true
+  LocalCreatedAt;
+  
+  @UI.hidden: true
+  LocalLastChangedBy;
+  
+  @UI.hidden: true
+  LocalLastChangedAt;
+  
+  @UI.hidden: true
+  LastChangedAt;
+}

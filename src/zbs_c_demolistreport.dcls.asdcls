@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZBS_C_DemoListReport'
+@MappingRole: true
+define role ZBS_C_DemoListReport {
+  grant select on ZBS_C_DemoListReport
+  where INHERITING CONDITIONS FROM ENTITY ZBS_R_DemoListReport REPLACING { ROOT WITH _BaseEntity };
+}
